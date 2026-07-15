@@ -1,0 +1,13 @@
+{
+  "name": "shopez",
+  "version": "1.0.0",
+  "description": "ShopEZ — Full-Stack MERN E-Commerce Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  }
+}
